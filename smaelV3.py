@@ -137,7 +137,8 @@ def kay3(matrix, seqA, seqB):
     i = 1
     s = 0
     #while counter <= len(shorter):
-    while counter <= 10:
+    while counter <= min(10, len(shorter)):
+
         s = 0
         i = counter
         while i <= len(shorter):
